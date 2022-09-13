@@ -4,10 +4,13 @@
 }
 
 .container {
+  display: flex;
   height: 100vh;
   width: 100vw;
   background-color: lightgray;
-  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .item {
@@ -15,4 +18,5 @@
   background-color: white;
   height: 180px;
   width: 180px;
+
 }
